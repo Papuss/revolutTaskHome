@@ -1,0 +1,9 @@
+.number-component .number-input {
+    display: flex;
+}
+
+.number-component .number-input .input {
+    border: none;
+    outline: none;
+    background-color: lightgray;
+}

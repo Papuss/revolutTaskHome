@@ -1,0 +1,20 @@
+@import '~antd/dist/antd.css';
+
+.dropdown-component {    
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.dropdown-component .options {
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    margin-left: 10px;
+}
+
+.dropdown-component .options select {  
+    border: none;
+    outline: none;
+}

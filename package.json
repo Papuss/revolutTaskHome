@@ -1,0 +1,65 @@
+{
+  "name": "revolut_home_task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.6.4",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/material": "latest",
+    "@mui/styled-engine-sc": "^5.0.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/react": "17.0.21",
+    "@types/react-dom": "17.0.9",
+    "antd": "^4.16.13",
+    "axios": "^0.21.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "26.6.0",
+    "lodash": "^4.17.21",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest",
+    "react-text-mask": "^5.4.3",
+    "react-transition-group": "^4.4.2",
+    "reactstrap": "^8.10.0",
+    "styled-components": "^5.3.1",
+    "text-mask-addons": "^3.8.0",
+    "web-vitals": "^1.1.2"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
+    "enzyme": "^3.11.0",
+    "jest": "^26.6.0"
+  }
+}
